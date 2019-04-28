@@ -6,6 +6,7 @@
   "author": "Igor Golovin <xdeadlyx@ya.ru>",
   "license": "MIT",
   "scripts": {
+    "prepare": "npm run build",
     "build": "webpack --display-modules"
   },
   "peerDependencies": {
