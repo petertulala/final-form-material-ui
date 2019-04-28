@@ -8,7 +8,7 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'final-form-material-ui.min.js',
 		library: 'final-form-material-ui',
-		libraryTarget: 'umd',
+		libraryTarget: 'commonjs',
 	},
 	module: {
 		rules: [
